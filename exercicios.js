@@ -43,3 +43,7 @@ function temRepetido(array) {
 testar("encontrarRepetidos", encontrarRepetidos([1, 2, 2, 3, 4, 4]), [2, 4]);
 testar("unirSemRepetir", unirSemRepetir([1, 2], [2, 3]), [1, 2, 3]);
 testar("temRepetido", temRepetido([1, 2, 3, 1]), true);
+
+// Adicionado para exibir a frase exata no terminal:
+const semRepeticao = unirSemRepetir([1, 2, 3], [3, 4, 5]);
+console.log(`array sem repetição: ${JSON.stringify(semRepeticao)}`);
