@@ -1,4 +1,3 @@
-
 // ------------------------------------------------------
 // Função auxiliar - NÃO precisa mexer aqui
 function testar(nomeExercicio, resultado, esperado) {
@@ -38,3 +37,9 @@ function temRepetido(array) {
   const elementosUnicos = new Set(array);
   return elementosUnicos.size < array.length;
 }
+
+// ------------------------------------------------------
+// Adicione as chamadas de teste abaixo para ver no terminal:
+testar("encontrarRepetidos", encontrarRepetidos([1, 2, 2, 3, 4, 4]), [2, 4]);
+testar("unirSemRepetir", unirSemRepetir([1, 2], [2, 3]), [1, 2, 3]);
+testar("temRepetido", temRepetido([1, 2, 3, 1]), true);
