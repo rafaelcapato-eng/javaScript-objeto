@@ -13,10 +13,10 @@ console.log(pessoa.telefone);
 
 pessoa.nome = "Luma Silva";
 
-console.log(pessoa);
+console.log(pessoa.nome);
 
 const novaPessoa = {
   nome: "Pedro",
-};
+}
 
 pessoa = novaPessoa;
